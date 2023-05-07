@@ -13,4 +13,4 @@ Since this plugin is specifically designed to work with EssentialsX (as well as 
 If you want an Essentials replacement that won't decide on your behalf what plugins you're allowed on your server, I'm working on a from-scratch reimplementation that aims to respect the pricipals of libre software. My reimplementation will have the same functionality built-in and enabled by default, although you will be able to opt into chat reporting on your server if you really want to.
 
 
-*Note: This plugin is licensed under the GNU AGPL 3.0 license, but can also be licensed under BSD 3-clause upon request. For anyone considering contributing to this project, please understand that your code may be distributed under AGPLv3 or BSD 3-clause.*
+*Note: This plugin is licensed under the GNU AGPL 3.0 license, but can also be licensed under BSD 3-clause upon request. For anyone considering contributing to this project, please understand that your contributions may be distributed under AGPLv3 or BSD 3-clause.*
