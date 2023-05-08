@@ -1,7 +1,7 @@
 # BetterNCR
 A better plugin to block chat reports.
 
-It's like No Chat Reports, but better! This plugin is written to work with EssentialsX without causing issues. If this plugin causes issues when paired with EssentialsX, please submit a bug report.
+It's like No Chat Reports, but better! This plugin is written to work with EssentialsX without causing issues. If this plugin causes issues when paired with EssentialsX (or any other plugin), please submit a bug report.
 
 EssentialsX has been warning server admins who try to install No Chat Reports and Essentials on the same server. Originally they tried to claim it was simple incompatibility, but in their code they [moved No Chat Reports from `serverUnsupportedDangerous` to `serverUnsupportedDumb`](https://github.com/EssentialsX/Essentials/blob/0936fe80bd7426b0e002485163d026d5134d0c65/Essentials/src/main/java/com/earth2me/essentials/commands/Commandessentials.java#L796) ([SupportStatus.STUPID_PLUGIN](https://github.com/EssentialsX/Essentials/blob/bf14b88600601019fb51dd6e6a1524e411e9b339/Essentials/src/main/java/com/earth2me/essentials/utils/VersionUtil.java#L66)). I took this as an admission that compatibility was never their concern.
 
