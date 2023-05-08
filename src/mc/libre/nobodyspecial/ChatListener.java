@@ -22,6 +22,7 @@ public class ChatListener implements Listener {
             for (Player toPlayer : Bukkit.getOnlinePlayers()) {
                 toPlayer.sendMessage(String.format(e.getFormat(), e.getPlayer().getDisplayName(), e.getMessage()));
             }
+            BetterNCR.server.getConsoleSender().sendMessage(String.format(e.getFormat(), e.getPlayer().getDisplayName(), e.getMessage()));
 
             return;
     }
