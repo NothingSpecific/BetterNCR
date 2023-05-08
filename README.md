@@ -1,5 +1,5 @@
 # BetterNCR
-A better plugin to block chat reports
+A better plugin to block chat reports.
 
 It's like No Chat Reports, but better! This plugin is written to work with EssentialsX without causing issues. If this plugin causes issues when paired with EssentialsX, please submit a bug report.
 
@@ -10,7 +10,9 @@ EssentialsX has been warning server admins who try to install No Chat Reports an
 Since this plugin is specifically designed to work with EssentialsX (as well as any other chat-handling plugins), this should remove any credibility from attempts to issue warnings upon detection of this plugin's presence. I can't guarantee they won't try to do the same thing to this plugin, but if they do there's no way to legitimize the decision.
 
 ---
+
 If you want an Essentials replacement that won't decide on your behalf what plugins you're allowed on your server, I'm working on a from-scratch reimplementation that aims to respect the pricipals of libre software. My reimplementation will have the same functionality built-in and enabled by default, although you will be able to opt into chat reporting on your server if you really want to.
+
 ---
 
 ### Why should I disable chat reporting?
@@ -30,5 +32,7 @@ It's also worth considering that the vulnerabilities are significant concerns wi
 ### But chat reporting is actually good, and disabling it is stupid!
 
 Then you can choose not to use this plugin. I disagree and highly recommend you watch Aizistral's video [Why defenders of Minecraft's chat reporting are WRONG](https://www.youtube.com/watch?v=bF_37BrWBSM). But it's your server which means it's your decision whether to enable or disable chat reporting.
+
+---
 
 *Note: This plugin is licensed under the [GNU AGPL 3.0 license](https://www.gnu.org/licenses/agpl-3.0.en.html), but can also be licensed under [BSD 3-clause](https://opensource.org/license/BSD-3-clause/) upon request. For anyone considering contributing to this project, please understand that your contributions may be distributed under [AGPLv3](https://www.gnu.org/licenses/agpl-3.0.en.html) or [BSD 3-clause](https://opensource.org/license/BSD-3-clause/).*
