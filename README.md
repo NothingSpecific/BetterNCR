@@ -11,6 +11,24 @@ Since this plugin is specifically designed to work with EssentialsX (as well as 
 
 ---
 If you want an Essentials replacement that won't decide on your behalf what plugins you're allowed on your server, I'm working on a from-scratch reimplementation that aims to respect the pricipals of libre software. My reimplementation will have the same functionality built-in and enabled by default, although you will be able to opt into chat reporting on your server if you really want to.
+---
 
+### Why should I disable chat reporting?
+
+Mojang's chat reporting is a controversial feature, and while there are certain prominent figures who don't understand the controversy, there are legitimate concerns with it.
+
+Take [MCBans](https://www.mcbans.com/#), for example, which is an opt-in global banning system which allows servers to opt into global bans and even adds failsafes to only ban players after they've received a specific configurable number of bans from individual servers.
+
+Compare that to Mojang's chat reporting, which global bans players potentially after only a single incident, has no configurability for what types of number of offenses should be global-bannable, and relies on trust in a centalized organization (Microsoft) with little to no transparency or accountability to their own users.
+
+### But haven't the vulnerabilities been fixed?
+
+No, they haven't... Or at least not all of them. Some of the chat reporting vulnerabilities have been fixed, but some remain. If you're interested in learning more, watch Aizistral's video [Chat Reporting in Minecraft 1.19.3: The End of Blockchain Chat](https://www.youtube.com/watch?v=48H5nMQ_8Yg).
+
+It's also worth considering that the vulnerabilities are significant concerns with Mojang's chat reporting, but they're not the fundamental issues with it. The fundamental issue is with the need to trust a centralized unaccountable organization to make these moderation decisions instead of relying on a server's own moderators to decide what's appropriate for their server.
+
+### But chat reporting is actually good, and disabling it is stupid!
+
+Then you can choose not to use this plugin. I disagree and highly recommend you watch Aizistral's video [Why defenders of Minecraft's chat reporting are WRONG](https://www.youtube.com/watch?v=bF_37BrWBSM). But it's your server which means it's your decision whether to enable or disable chat reporting.
 
 *Note: This plugin is licensed under the [GNU AGPL 3.0 license](https://www.gnu.org/licenses/agpl-3.0.en.html), but can also be licensed under [BSD 3-clause](https://opensource.org/license/BSD-3-clause/) upon request. For anyone considering contributing to this project, please understand that your contributions may be distributed under [AGPLv3](https://www.gnu.org/licenses/agpl-3.0.en.html) or [BSD 3-clause](https://opensource.org/license/BSD-3-clause/).*
