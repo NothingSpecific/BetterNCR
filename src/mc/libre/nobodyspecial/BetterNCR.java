@@ -10,13 +10,13 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class BetterNCR extends JavaPlugin {
 	public static Server server = null;
-    @Override
-    public void onEnable() {
-    	server = getServer();
-    	server.getPluginManager().registerEvents(new ChatListener(), this);
-    }
-    @Override
-    public void onDisable() {
-
+	@Override
+	public void onEnable() {
+		server = getServer();
+		server.getPluginManager().registerEvents(new ChatListener(), this);
+	}
+	@Override
+	public void onDisable() {
+		// No need to do anything here, since there's no cleanup that needs to happen
     }
 }
