@@ -1,5 +1,5 @@
 name: BetterNCR
-main: mc.libre.nobodyspecial.BetterNCR
-version: 0.3a
+main: mc.libre.nobodyspecial.betterncr.BetterNCR
+version: 0.3a+1
 api-version: 1.19
 commands:
