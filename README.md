@@ -13,7 +13,7 @@ Since this plugin is specifically designed to work with EssentialsX (as well as 
 
 ---
 
-If you want an Essentials replacement that won't decide on your behalf what plugins you're allowed on your server, I'm working on a from-scratch reimplementation that aims to respect the pricipals of libre software. My reimplementation will have the same functionality built-in and enabled by default, although you will be able to opt into chat reporting on your server if you really want to.
+If you want an Essentials replacement that won't decide on your behalf what plugins you're allowed on your server, I'm working on a from-scratch reimplementation that aims to respect the pricipals of libre software. My reimplementation will block chat reports by default, although you will be able to opt into chat reporting on your server if you really want to.
 
 ---
 
@@ -23,7 +23,7 @@ Mojang's chat reporting is a controversial feature, and while there are certain 
 
 Take [MCBans](https://www.mcbans.com/#), for example, which is an opt-in global banning system which allows servers to opt into global bans and even adds failsafes to only ban players after they've received a specific configurable number of bans from individual servers.
 
-Compare that to Mojang's chat reporting, which global bans players potentially after only a single incident, has no configurability for what types of number of offenses should be global-bannable, and relies on trust in a centalized organization (Microsoft) with little to no transparency or accountability to their own users.
+Compare that to Mojang's chat reporting, which global bans players potentially after only a single incident, has no configurability for what types or number of offenses should be global-bannable, and relies on trust in a centalized organization (Microsoft) with little to no transparency or accountability to their own users.
 
 ### But haven't the vulnerabilities been fixed?
 
@@ -47,4 +47,8 @@ Before opening this project in Eclipse, you should make sure to run `init.py`. A
 
 I develop on a GNU+Linux system and have not tested the build process on a Windows development system. But I'm sure you can figure it out. If `init.py` needs to be updated to work on Windows systems, submit a PR and I'll look into officially adding support for development on Windows systems.
 
-*Note: This plugin is licensed under the [GNU AGPL 3.0 license](https://www.gnu.org/licenses/agpl-3.0.en.html), but can also be licensed under [BSD 3-clause](https://opensource.org/license/BSD-3-clause/) upon request. For anyone considering contributing to this project, please understand that your contributions may be distributed under [AGPLv3](https://www.gnu.org/licenses/agpl-3.0.en.html) or [BSD 3-clause](https://opensource.org/license/BSD-3-clause/).*
+---
+
+### *Licensing*
+
+*This plugin is licensed under the [GNU AGPL 3.0 license](https://www.gnu.org/licenses/agpl-3.0.en.html), but can also be licensed under [BSD 3-clause](https://opensource.org/license/BSD-3-clause/) upon request. For anyone considering contributing to this project, please understand that your contributions may be distributed under [AGPLv3](https://www.gnu.org/licenses/agpl-3.0.en.html) or [BSD 3-clause](https://opensource.org/license/BSD-3-clause/).*
